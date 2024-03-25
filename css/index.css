@@ -81,6 +81,23 @@ body{
     font-family: 'bobble', sans-serif;
 }
 
+@media screen and (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 
+    .btn_menu{
+        font-size: 5vw;
+    }
+
+    .btn_logo{
+        margin: 10px;
+        padding: 10px 20px;
+    }
+}
 
 
