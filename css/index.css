@@ -1,0 +1,86 @@
+body{
+    background-image: url("../img/classic1.jpg");
+    background-repeat: repeat;
+    background-size: 150px auto;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+
+.blur{
+    position: fixed;
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    width: 100%;
+    height: 100%;
+
+}
+
+.font{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@font-face {
+    font-family: 'bobble';
+    src: url('../font/bobble.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.font-bubble{
+    font-family: 'bobble', sans-serif;
+    color: #f9b4e0;
+    text-decoration: none;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.8), -2px 0 rgba(0, 0, 0, 0.8), 0 2px rgba(0, 0, 0, 0.8), 0 -2px rgba(0, 0, 0, 0.8),
+    1px 1px rgba(0, 0, 0, 0.8), -1px -1px rgba(0, 0, 0, 0.8), 1px -1px rgba(0, 0, 0, 0.8), -1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.btn_menu{
+    color: #070707;
+    background-color: #F9B4E0;
+    text-decoration: none;
+    font-size: 2vw;
+    border-collapse: collapse;
+    border: none;
+    font-family: sans-serif
+
+}
+
+.btn_menu:hover{
+    color: #fffdfd;
+    cursor: pointer;
+
+    font-family: 'bobble', sans-serif;
+}
+
+.btn_logo{
+    margin: 35px;
+    padding: 20px 30px;
+    background-color: #F9B4E0;
+    color:#070707;
+    border-radius: 10px;
+
+}
+
+.btn_logo:hover{
+    color:#fffdfd;
+    cursor: pointer;
+    font-family: 'bobble', sans-serif;
+}
+
+
+
+
